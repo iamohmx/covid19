@@ -9,7 +9,7 @@
                 <h4 class= "alert-heading">New Cases</h4>
                 <p>ผู้ติดเชื้อสะสมรายใหม่</p>
                 <hr>
-                <h2 class="mb-0" ">
+                <h2 class="mb-0">
                     {% for new_cases in res %}
                         ทั้งหมด {{ new_cases.new_case|intcomma }} ราย
                     {% endfor %}
